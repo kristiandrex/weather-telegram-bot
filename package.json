@@ -1,0 +1,33 @@
+{
+  "name": "weather-telegram-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Telegram",
+    "Weather API",
+    "Bot"
+  ],
+  "author": "kristiandrex",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristiandrex/weather-telegram-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kristiandrex/weather-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/kristiandrex/weather-telegram-bot#readme",
+  "description": "Telegram Bot to check the weather"
+}
